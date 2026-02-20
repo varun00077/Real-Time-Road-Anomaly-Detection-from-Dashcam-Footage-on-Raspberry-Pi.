@@ -40,8 +40,9 @@ Evaluated on 480 validation images:
 ### 1 — Clone and build
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
+
+git clone https://github.com/varun00077/Real-Time-Road-Anomaly-Detection-from-Dashcam-Footage-on-Raspberry-Pi..git
+
 docker build -t yolo-rpi .
 ```
 
