@@ -1,0 +1,17 @@
+# Exclude the Windows virtual environment - Docker installs its own packages
+yolo-env/
+
+# Exclude PyTorch model - only the ONNX file is needed in the container
+best.pt
+
+# Exclude any saved output files
+output/
+*.mp4
+out_*.jpg
+out_*.png
+
+# Git / editor noise
+.git/
+.vscode/
+__pycache__/
+*.pyc
